@@ -1,10 +1,11 @@
 -- NetworX Security System Monitoring with ESP-07
 -- February 11, 2015 tgmaxx
 -- August 23, 2016 - onAux delay at 10msec
+-- October 6, 2016 - changed broker
 
 print("LUA Interpreter started")
 
-broker = "192.168.0.252"  
+broker = "192.168.0.254"  
 port = 1883
 
 gpio.mode(1,gpio.OUTPUT)
